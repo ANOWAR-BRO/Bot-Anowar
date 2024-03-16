@@ -2,7 +2,7 @@ module.exports.config = {
   name: "time",
   version: "1.0.0",
   permission: 0,
-  prefix: awto,
+  prefix: true,
   credits: "Rahad",
   description: "( 𝙀𝙭𝙖𝙘𝙩 𝙩𝙞𝙢𝙚 & 𝙙𝙖𝙩𝙚 )",
   category: "Time and Date",
