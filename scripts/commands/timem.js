@@ -3,7 +3,7 @@ module.exports.config = {
   version: "1.0.0",
   permission: 0,
   prefix: true,
-  credits: "Rahad",
+  credits: "nayan",
   description: "( 𝙀𝙭𝙖𝙘𝙩 𝙩𝙞𝙢𝙚 & 𝙙𝙖𝙩𝙚 )",
   category: "Time and Date",
   usages: "( Exact time )",
@@ -22,6 +22,8 @@ module.exports.run = async function ({ api, event, args, Currencies, Users }) {
   ];
   const rahad = links[Math.floor(Math.random() * links.length)];
   const rahad2 = (await axios.get(rahad, { responseType: 'stream' })).data;
+  const rahad5 =[ "-পুরুষ সস্তা নয় দায়িত্বশীল!🌸💙","একা বাঁচতে শিখো..!মানুষ শান্তনা দিবে শান্তি না..! 🌸🥀","—মনকে ফুলের মত পবিত্র করুন, জীবনে সুগন্ধের অভাব হবে না-|♡🩷🪻","-চুপ থাকা ভদ্রতা-দুর্বলতা নয়🌻","─সম্পদে নয় ইবাদতেই শান্তি-!🤍🌸 ","খারাপ সময় সারাজীবন থাকে নাহ🌸","__মায়ের ভালোবাসা অতুলনীয়.!!🌸","- সময়ের সাথে জীবনও ক্ষয়ে যায়.🖤🥀"];
+  const rahad6 = rahad5[Math.floor(Math.random() * rahad5.length)];
   const supremo = moment.tz('Asia/Dhaka').format('hh:mm:ss');
   const draven = moment.tz('Asia/Dhaka').format('D/MM/YYYY');
   let kiel = moment.tz('Asia/Dhaka').format('dddd');
@@ -45,7 +47,7 @@ module.exports.run = async function ({ api, event, args, Currencies, Users }) {
   ﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
   ◙ এৃ্ঁখৃ্ঁনৃ্ঁ সৃ্ঁমৃ্ঁয়ৃ্ : 【${supremo}】
 
-  ◙- সময়ের সাথে জীবনও ক্ষয়ে যায়.🖤🥀
+  ◙【${rahad6}】
   ﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏`;
 
   api.sendMessage({ body: rahad3, attachment: rahad2 }, event.threadID, event.messageID);
