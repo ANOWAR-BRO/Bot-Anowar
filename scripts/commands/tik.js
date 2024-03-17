@@ -26,8 +26,8 @@ module.exports = {
     const fs = require("fs");
     const axios = require("axios");
     const request = require("request");
-    const res = await axios.get(`https://raw.githubusercontent.com/MR-NAYAN-404/ERROR/main/error.json`);
-    const error = res.data.error;
+    const errorRes = await axios.get(`https://raw.githubusercontent.com/MR-NAYAN-404/ERROR/main/error.json`);
+    const error = errorRes.data.error;
 
     if (!args[0]) return nayan.reply("[ ! ] Input link.", threadID, messageID);
 
