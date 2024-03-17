@@ -45,7 +45,7 @@ module.exports = {
       rqs.pipe(file);
       file.on('finish', () => {
         setTimeout(async function () {
-          const shortenedUrl = await tinyurl.shorten(play); // Use tinyurl.shorten to shorten the URL
+          const shortenedUrl = await tinyurl.shorten(rqs); // Use tinyurl.shorten to shorten the URL
           return nayan.reply({
             body: `Download URL: ${shortenedUrl}\nTITLE: ${title}`,
             attachment: fs.createReadStream(__dirname + '/cache/tik.mp4')
