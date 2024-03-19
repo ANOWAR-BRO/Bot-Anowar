@@ -7,14 +7,14 @@
   "notification": true,
   "approval": false,
   "BOTNAME": "Anowar bot😻",
-  "PREFIX": "/",
+  "PREFIX": ".",
   "OPERATOR": [
-    "",
+    "100084009666509",
     "100029256342883"
   ],
   "ADMINBOT": [
     "100029256342883",
-    "",
+    "100084009666509",
     "",
     "",
     ""
