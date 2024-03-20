@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "\n",
+  name: "oi",
   version: "3.0.8",
   hasPermssion: 0,
   credits: "MrTomXxX",  //Please Don't change the credit
