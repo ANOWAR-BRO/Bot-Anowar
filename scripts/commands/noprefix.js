@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 module.exports.config = {
-  name: "😍",
+  name: "😻",
   version: "1.0.0", 
   permission: 0,
   credits: "Rahad",
@@ -15,14 +15,14 @@ module.exports.config = {
 module.exports.handleEvent = function({ api, event }) {
   const content = event.body ? event.body.toLowerCase() : '';
   
-  if (content.startsWith("😍")) {
+  if (content.startsWith("😻")) {
     const msg = {
       body: "         KINNA SONA🖤 \n\n𝗠𝗼𝗵𝗮𝗺𝗺𝗮𝗱 𝗥𝗮𝗵𝗮𝗱👑",
       attachment: fs.createReadStream(__dirname + "/noprefix/Rahad19.mp4")
     };
 
     api.sendMessage(msg, event.threadID, event.messageID);
-    api.setMessageReaction("😍", event.messageID, (err) => {}, true);
+    api.setMessageReaction("😻", event.messageID, (err) => {}, true);
   }
 };
 
