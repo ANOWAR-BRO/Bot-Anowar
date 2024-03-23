@@ -19,7 +19,7 @@ dependencies: {
 module. experts.handlEvent = asyns ({ api, event, threds}) => {
 const content = event.body ? event.body : '';
     const body = content.toLowerCase();
-    if (body.startsWith("❤️‍🔥")) {
+    if (body.startsWith("🤣")) {
     const axios = global.nodemodule["axios"];
     const request = global.nodemodule["request"];
     const fs = global.nodemodule["fs-extra"];
