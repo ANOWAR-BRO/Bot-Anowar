@@ -20,9 +20,9 @@ const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
 var link =["https://i.ibb.co/h8r7pdc/received-877858213829087.jpg", 
             
-            "https://i.ibb.co/h8r7pdc/received-877858213829087.jpg", 
+            "https://i.imgur.com/29yIjA6.jpeg ", 
             
-"https://i.ibb.co/h8r7pdc/received-877858213829087.jpg",
+"https://i.imgur.com/TrzxgKN.jpeg ",
             
             "https://i.ibb.co/h8r7pdc/received-877858213829087.jpg"];
   
