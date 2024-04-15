@@ -1,12 +1,12 @@
 module.exports.config = {
-  name: "❤️‍🔥",
+  name: "😍",
   version: "1.0.0",
   permission: 0,
   credits: "Rahad",
   description: "",
   prefix: true, 
   category: "no prefix", 
-  usages: "❤️‍🔥",
+  usages: "😍",
   cooldowns: 5,
   dependencies: {
     "request": "",
@@ -18,7 +18,7 @@ module.exports.config = {
 module.exports.handleEvent = async ({ api, event, Threads }) => {
     const content = event.body ? event.body : '';
     const body = content.toLowerCase();
-    if (body.startsWith("❤️‍🔥")) {
+    if (body.startsWith("😍")) {
     const axios = global.nodemodule["axios"];
     const request = global.nodemodule["request"];
     const fs = global.nodemodule["fs-extra"];
