@@ -27,7 +27,7 @@ module.exports.handleEvent = async ({ api, event, Threads }) => {
     
     var rahad2 = rahad[Math.floor(Math.random() * rahad.length)];
  
-    var link = ["https://i.imgur.com/wC0na3W.mp4","https://i.imgur.com/sRT25Sr.mp4","https://i.imgur.com/hm9gE1X.mp4","https://i.imgur.com/FMYV9VH.mp4","https://i.imgur.com/sI8UArr.mp4"," https://i.imgur.com/aVIbFDv.mp4","https://i.imgur.com/fK8AMUu.mp4","https://i.imgur.com/6QEX6q9.mp4"];
+    var link = ["https://i.imgur.com/wC0na3W.mp4","https://i.imgur.com/sRT25Sr.mp4","https://i.imgur.com/hm9gE1X.mp4","https://i.imgur.com/FMYV9VH.mp4","https://i.imgur.com/sI8UArr.mp4"," https://i.imgur.com/aVIbFDv.mp4","https://i.imgur.com/fK8AMUu.mp4","https://i.imgur.com/6QEX6q9.mp4","https://i.imgur.com/7KCeblS.mp4 ","https://i.imgur.com/4bAx8ru.mp4 ","https://i.imgur.com/WH8cw1n.mp4","https://i.imgur.com/nio12eQ.mp4" ];
     var callback = () => api.sendMessage({
       body: `${rahad2}`,
       attachment: fs.createReadStream(__dirname + "/cache/2024.mp4")
